@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("img/fireworks-2585843_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.container{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+
+span{
+  color: #fff;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+span a{
+  text-decoration: none;
+  color: #fff;
+}
+
+header{
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.input{
+  height: 45px;
+  width: 105%;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  padding: 0 0 0 45px;
+  background: rgba(255, 255, 255, 0.1); /*from youtube*/
+}
+
+.input-section{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.input-section ::placeholder{
+  color: #fff;
+}
+
+.submit{
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  height: 45px;
+  width: 105%;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+
